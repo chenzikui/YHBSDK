@@ -1,0 +1,6 @@
+framework module YHBSDK {
+  umbrella header "YHBSDK.h"
+
+  export *
+  module * { export * }
+}
