@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.author             = { "chenzikui" => "czk19890516@qq.com" }  #作者
   s.platform     = :ios, "9.0"                  #支持的平台和版本号
   s.source       = { :git => "https://github.com/chenzikui/YHBSDK.git", :tag => "0.0.1" }         #存储库的git地址，以及tag值
-  s.source_files  =  "YHBSDK/Other/**/*.{h,m}" #需要托管的源代码路径
+  s.source_files  =  "YHBSDK/**/*.{h,m}" #需要托管的源代码路径
   s.requires_arc = true #是否支持ARC
-  s.dependency "Masonry", "~> 1.0.0"    #所依赖的第三方库，没有就不用写
+  s.dependency "AFNetworking"    #所依赖的第三方库，没有就不用写
 
 end
