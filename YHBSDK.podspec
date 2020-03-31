@@ -2,11 +2,11 @@ Pod::Spec.new do |spec|
 
 spec.name         = "YHBSDK" #名称
 
-spec.version      = "1.0.0" #版本号
+spec.version      = "2.0.0" #版本号
 
 spec.summary      = "YHBSDK SDK" #简介
 
-spec.description  = "YHBSDK"#描述
+spec.description  = "YHBSDK 用于提行方APP直接引用"#描述
 
 spec.homepage     = "https://github.com/chenzikui/YHBSDK"#项目主页地址
 
@@ -32,7 +32,7 @@ spec.resources = "YHBSDK/YHBSDKBundle.bundle"
 
 spec.frameworks = "Foundation", "UIKit"#依赖库
 
-spec.dependency 'AFNetworking', '~> 3.2.1'
+#spec.dependency 'AFNetworking', '~> 3.2.1'
 
 #依赖的第三方，有几个写几个
 

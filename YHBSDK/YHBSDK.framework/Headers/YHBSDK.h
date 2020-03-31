@@ -13,7 +13,11 @@
 #import <YHBSDK/YHBWebView.h>
 #import <YHBSDK/YHBLocationInfo.h>
 #import <YHBSDK/YHBDefines.h>
+#import <YHBSDK/YHBXWFintechApi.h>
+#import <YHBSDK/YHBCommon.h>
+#import <YHBSDK/YHBBlueTooth.h>
 
+#define YHBSDK_Version @"3.0.1"
 
 //! Project version number for YHBSDK.
 FOUNDATION_EXPORT double YHBSDKVersionNumber;
