@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 spec.name         = "YHBSDK" #名称
 
-spec.version      = "3.0.1" #版本号
+spec.version      = "3.0.2" #版本号
 
 spec.summary      = "YHBSDK SDK" #简介
 

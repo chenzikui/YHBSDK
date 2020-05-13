@@ -17,7 +17,7 @@
 #import <YHBSDK/YHBCommon.h>
 #import <YHBSDK/YHBBlueTooth.h>
 
-#define YHBSDK_Version @"3.0.1"
+#define YHBSDK_Version @"3.0.2"
 
 //! Project version number for YHBSDK.
 FOUNDATION_EXPORT double YHBSDKVersionNumber;

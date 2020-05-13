@@ -29,6 +29,11 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)openDebugModel;
 
 /*
+    是否开启第一次加载的进度条
+*/
+-(void)showWebviewProgress;
+
+/*
     type  枚举 web请求方式
     reqStr 字符串  前端获取的token、ticket
     extra: 字典 校验参数

@@ -52,4 +52,9 @@ typedef enum
 */
 -(void)requestWebWithReqUrl:(NSString *)reqUrl extra:(NSDictionary *)extra;
 
+/*
+    是否开启第一次加载的进度条
+*/
+-(void)showWebviewProgress;
+
 @end
